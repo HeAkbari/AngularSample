@@ -8,12 +8,18 @@ import { AppComponent } from './app.component';
 import { from } from 'rxjs';
 import { HeroesComponent } from './heroes/heroes.component';
 import { HeroDetailComponent } from './hero-detail/hero-detail.component';
+import { MessagesComponent } from './messages/messages.component';
+import { CoursesComponent } from './courses/courses.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeroesComponent,
-    HeroDetailComponent
+    HeroDetailComponent,
+    MessagesComponent,
+    CoursesComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
